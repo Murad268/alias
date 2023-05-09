@@ -1,12 +1,15 @@
-import HomePage from "./pages/HomePage/ArticlePage";
+
+import ArticlePage from "./pages/ArticlePage/ArticlePage";
+import CollaboratorsPage from "./pages/CollaboratorsPage/CollaboratorsPage";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import styles from './reset.css';
+import './reset.css';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <HomePage/>
+      {/* <ArticlePage/> */}
+      <CollaboratorsPage/>
       <Footer/>
     </div>
   );
