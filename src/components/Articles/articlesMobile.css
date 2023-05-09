@@ -1,6 +1,7 @@
-@media(max-width: 398px) {
+@media(max-width: 648px) {
    .articles__wrapper {
       width: 100%;
       grid-template-columns: repeat(1, 1fr);
    }
+   
 }

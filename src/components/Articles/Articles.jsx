@@ -6,7 +6,7 @@ import Empty from '../Empty/Empty';
 import { loadPage } from '../../store/actions/loadActions';
 import { useDispatch, useSelector } from 'react-redux';
 import './Articles.css';
-import './articleMobile.css';
+import './articlesMobile.css';
 const Articles = ({articles}) => {
    const [pageNumber, setPageNumber] = useState(0);
    const countOfArticles = useSelector(state => {

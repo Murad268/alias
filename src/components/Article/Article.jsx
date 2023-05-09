@@ -1,14 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import img from '../../images/Rectangle 122.png';
-import './Article.css';
 
+import './Article.css';
+import './articleMobile.css'
 const Article = ({article}) => {
    return (
       <div className='article'>
          <div className="article__image">
-            <img src={img} alt="" />
+            <img src={article.src} alt="" />
          </div>
          <div className="article__title">
             {article.title.length > 62?article.title.slice(0, 62):article.title}
