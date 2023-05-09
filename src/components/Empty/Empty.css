@@ -1,0 +1,6 @@
+.empty {
+   font-weight: 900px;
+   font-family: var(--inter--font);
+   color: var(--dark1);
+   font-size: 30px;
+}

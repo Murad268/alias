@@ -1,0 +1,35 @@
+.articles__wrapper {
+   display: grid;
+   /* grid-template-columns: repeat(3, 1fr); */
+   grid-template-columns: repeat( auto-fit, minmax(328px, 1fr));
+   column-gap: 30px;
+   row-gap: 62.5px;
+   position: relative;
+}
+
+.pagination {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   padding: 0;
+   align-items: center;
+   transform: translate(-50%);
+   position: absolute;
+   bottom: -60px;
+   left: 50%;
+ }
+ 
+ .pagination li {
+   margin: 0 5px;
+   font-size: 25px;
+   cursor: pointer;
+ 
+ }
+ 
+ .pagination li.active {
+   font-weight: bold;
+   color:chartreuse;
+   font-size: 30px;
+   font-style: italic;
+ }
+ 

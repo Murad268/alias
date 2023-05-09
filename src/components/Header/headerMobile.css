@@ -1,0 +1,14 @@
+@media(max-width: 1140px) {
+   .header__buttons {
+      column-gap: 30px
+   }
+   .header__links>ul {
+      column-gap: 20px
+   }
+}
+
+@media(max-width: 992px) {
+   .header__links {
+      display: none;
+   }
+}

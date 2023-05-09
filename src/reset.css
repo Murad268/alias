@@ -1,0 +1,32 @@
+.container {
+   max-width: 1169px;
+   margin: 0 auto;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   /* border: 1px solid red; */
+}
+ul, ol {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+:root {
+   --inter--font: 'Inter';
+   --dark1: #16182C;
+   --dark2: #606C86;
+   --light1: #FFFFFF;
+   --bg1: linear-gradient(250.46deg, #353F9E -41.69%, #0D145F 111.45%);
+}
+
+@media(max-width: 1169px) {
+   .container {
+      padding: 0 20px;
+   }
+}

@@ -1,0 +1,8 @@
+.number a {
+   color: var(--light1);
+   font-family: var(--inter--font);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+}

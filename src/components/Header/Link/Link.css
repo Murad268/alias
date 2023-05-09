@@ -1,0 +1,9 @@
+.header__link, .header__link>a {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 0.01em;
+   color: var(--light1);
+   font-family: var(--inter--font);
+}
