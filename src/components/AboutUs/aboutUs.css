@@ -1,0 +1,50 @@
+.aboutUs__image {
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.aboutUs__desc p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark2);
+   font-family: var(--inter--font);
+}
+
+.aboutUs__wrapper {
+   display: flex;
+   column-gap: 119px;
+   align-items: center
+}
+.aboutUs__image, .aboutUs__desc {
+   flex: 1;
+  
+}
+
+.aboutUs__image img {
+   width: 100%;
+   object-fit: fill;
+}
+
+.aboutUs__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 70px;
+   font-family: var(--inter--font);
+   color: var(--dark1);
+   margin-bottom: 60px;
+}
+.aboutUs__desc__button {
+   margin-top: 50px;
+}
+.aboutUs__desc__button button {
+   font-family: var(--inter--font);
+   color: white;
+   background-color: var(--dark1);
+   width: 248px;
+   height: 48px;
+   border-radius: 10px;
+   border: none;
+}

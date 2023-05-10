@@ -1,6 +1,7 @@
 
 import ArticlePage from "./pages/ArticlePage/ArticlePage";
 import CollaboratorsPage from "./pages/CollaboratorsPage/CollaboratorsPage";
+import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import './reset.css';
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Header/>
       {/* <ArticlePage/> */}
-      <CollaboratorsPage/>
+      {/* <CollaboratorsPage/> */}
+      <AboutUsPage/>
       <Footer/>
     </div>
   );

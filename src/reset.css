@@ -16,7 +16,9 @@ a {
    text-decoration: none;
 }
 
-
+body {
+   background-color: #F2F2F2;
+}
 :root {
    --inter--font: 'Inter';
    --dark1: #16182C;

@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5.9rem;
+  /* padding-left: 13.9rem; */
+  gap: 1.5rem;
+}
+
+.main-sehife {
+  color: var(--color-body-text);
+}
+
+.main-axtaris {
+  color: var(--color-blue);
+}
+
+.main-consualting {
+  /* font-family: Inter; */
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4rem;
+  margin-bottom: 6.2rem;
+  /* padding-left: 13.9rem; */
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  grid-row-gap: 6.2rem;
+  margin-bottom: 16rem;
+}
+
+.main-1 {
+  grid-column: 1/2;
+  /* grid-row: 1/5; */
+  /* height: 45rem; */
+}
+.main-1_etrafli {
+  margin-top: 2.2rem;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.main-1_icon-all {
+  gap: 1.623rem;
+}
+
+.main-1_p {
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.main-1_content {
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+}

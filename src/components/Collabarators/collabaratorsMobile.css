@@ -1,0 +1,39 @@
+@media(max-width: 1120px) {
+   .collaborators__main {
+      height: max-content;
+      flex-direction: column;
+   }
+   .collaborators__main__desc {
+      order: 2;
+      padding-left: 20px;
+   }
+   .collaborators__main__img {
+      padding-left: 20px;
+   }
+}
+
+
+@media(max-width: 580px) {
+   .collaborators__main__img {
+      width: 100%;
+   
+   }
+   .collaborators__main__img img {
+      width: 100%;
+
+   }
+}
+
+@media(max-width: 480px) {
+   .collaborators__main__img {
+      padding-left: 0;
+      height: 448px;
+   }
+}
+
+@media(max-width: 400px) {
+   .collaborators__main__img {
+      
+      height: 320px;
+   }
+}

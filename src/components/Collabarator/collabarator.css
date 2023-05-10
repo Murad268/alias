@@ -1,0 +1,53 @@
+.collabarator {
+   background-color: white;
+   padding-bottom: 26.5px;
+}
+.collabarator__image {
+   height: 279px;
+   overflow: hidden;
+   position: relative;
+}
+.collabarator__image img {
+   width: 100%;
+   display: block;
+   width: 100%;
+   height: auto;
+   transform: translateY(-10%) ;
+}
+
+.collabarator__name {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 24px;
+   font-family: var(--inter--font);
+   display: flex;
+   color: var(--dark1);
+   margin-top: 20px;
+}
+
+.collabarator__position {
+   color: var(--dark2);
+   font-family: var(--inter--font);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   margin-top: 15px;
+}
+
+.collabarator__link a {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: var(--dark1);
+   font-family: var(--inter--font);
+   margin-top: 32.5px;
+   float: right;
+}
+
+.collabarator__body {
+   padding-left: 21px;
+   padding-right: 26px;
+}

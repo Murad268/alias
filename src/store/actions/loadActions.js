@@ -1,4 +1,4 @@
-import { LOADARTICLES, LOADARTICLES_SUCCESS, LOADARTICLES_FAILURE, LOADCOUNTARTICLES, LOADCOUNTARTICLES_SUCCESS, LOADCOUNTARTICLES_FAILURE, LOADPAGINATEDDATAS, LOADPAGINATEDDATAS__SUCCESS, LOADPAGINATEDDATAS_FAILURE } from "../types/types";
+import { LOADARTICLES, LOADARTICLES_SUCCESS, LOADARTICLES_FAILURE, LOADCOUNTARTICLES, LOADCOUNTARTICLES_SUCCESS, LOADCOUNTARTICLES_FAILURE, LOADPAGINATEDDATAS, LOADPAGINATEDDATAS__SUCCESS, LOADPAGINATEDDATAS_FAILURE  } from "../types/types";
 
 export function loadArticles() {
    return dispatch => {
@@ -36,7 +36,7 @@ export function loadArticles() {
 
  }
 
-  export function loadPage(page) {
+export function loadPage(page) {
     return dispatch => {
       dispatch({ type: LOADPAGINATEDDATAS });
   
@@ -52,3 +52,6 @@ export function loadArticles() {
         }));
     };
 }
+
+
+
