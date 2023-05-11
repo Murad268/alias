@@ -1,0 +1,18 @@
+@media(max-width: 1160px) {
+   .contact__wrapper {
+      column-gap: 0;
+      height: max-content;
+      flex-direction: column;
+      row-gap: 40px;
+   }
+}
+
+@media(max-width: 600px) {
+   .contact__form {
+      order: 1;
+      padding: 0 31px !important;
+   }
+   .contact__info {
+      order: 2;
+   }
+}

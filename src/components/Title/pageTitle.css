@@ -1,0 +1,17 @@
+.pageTitle {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 56px;
+   font-family: var(--inter--font);
+   color: var(--dark1);
+   margin-bottom: 50px;
+}
+
+@media(max-width: 768px) {
+   .pageTitle {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 40px;
+   }
+}

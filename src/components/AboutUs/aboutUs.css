@@ -27,15 +27,7 @@
    object-fit: fill;
 }
 
-.aboutUs__title {
-   font-style: normal;
-   font-weight: 600;
-   font-size: 64px;
-   line-height: 70px;
-   font-family: var(--inter--font);
-   color: var(--dark1);
-   margin-bottom: 60px;
-}
+
 .aboutUs__desc__button {
    margin-top: 50px;
 }

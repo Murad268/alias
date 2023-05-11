@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTitle from '../PageTitle/PageTitle'
 import image from '../../images/Rectangle 108.png'
 import './aboutUs.css'
 import './aboutUsMobile.css'
@@ -6,9 +7,7 @@ function AboutUs() {
   return (
     <div className='aboutUs'>
       <div className="container">
-         <h2 className="aboutUs__title">
-            Haqqımızda
-         </h2>
+         <PageTitle content={'Haqqımızda'}/>
          <div className="aboutUs__wrapper">
             <div className="aboutUs__image">
                <img src={image} alt="" />

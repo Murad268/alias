@@ -3,6 +3,7 @@ import ReactPaginate from 'react-paginate';
 import Article from '../Article/Article';
 import Loader from '../Loader/Loader';
 import Empty from '../Empty/Empty';
+import PageTitle from '../PageTitle/PageTitle';
 import { loadPage } from '../../store/actions/loadActions';
 import { useDispatch, useSelector } from 'react-redux';
 import './Articles.css';
@@ -24,7 +25,7 @@ const Articles = ({articles}) => {
 
    return (
       <div className="container">
-    
+         <PageTitle content='Məqalələr'/>
   
          <div className='articles__wrapper'>
             {

@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import Collabarator from '../Collabarator/Collabarator'
+import PageTitle from '../PageTitle/PageTitle'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadCollabarators } from '../../store/actions/collabaratorsActions'
 import './collabarators.css'
@@ -20,6 +21,7 @@ function Collaborators() {
 	return (
 		<div className='collaborators'>
 			<div className='container'>
+				<PageTitle content='Əməkdaşlar'/>
 				<div className='collaborators__wrapper'>
 					<div className='collaborators__main'>
 						<div className='collaborators__main__desc'>
