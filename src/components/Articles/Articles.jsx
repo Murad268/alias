@@ -3,7 +3,7 @@ import ReactPaginate from 'react-paginate';
 import Article from '../Article/Article';
 import Loader from '../Loader/Loader';
 import Empty from '../Empty/Empty';
-import PageTitle from '../PageTitle/PageTitle';
+import PageTitle from '../Title/PageTitle';
 import { loadPage } from '../../store/actions/loadActions';
 import { useDispatch, useSelector } from 'react-redux';
 import './Articles.css';

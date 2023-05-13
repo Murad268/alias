@@ -1,0 +1,8 @@
+
+
+@media(max-width: 370px) {
+   .legislation__wrapper {
+      grid-template-columns: 1fr;
+    
+   }
+}

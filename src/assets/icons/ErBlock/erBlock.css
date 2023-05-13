@@ -1,0 +1,53 @@
+.erBlock {
+   height: 407px;
+   position: relative;
+}
+.erBlock>img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
+
+.erBlock__body {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.erBlock__body__top {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.erBlock__body__top__num, .erBlock__body__top__name {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 26px;
+   color: var(--light1);
+   font-family: var(--inter--font);
+}
+.erBlock__body__top__name {
+   margin-top: 8px;
+}
+.erBlock__body__link>a {
+   display: block;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color: var(--light1);
+ 
+   font-family: var(--inter--font);
+}
+.erBlock__body__link {
+   padding: 15.02px 20px 16px 20px;
+ 
+}

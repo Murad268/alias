@@ -1,5 +1,5 @@
 import React from 'react'
-import PageTitle from '../PageTitle/PageTitle'
+import PageTitle from '../Title/PageTitle'
 import image from '../../images/Rectangle 108.png'
 import './aboutUs.css'
 import './aboutUsMobile.css'

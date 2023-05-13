@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import Collabarator from '../Collabarator/Collabarator'
-import PageTitle from '../PageTitle/PageTitle'
+import PageTitle from '../Title/PageTitle'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadCollabarators } from '../../store/actions/collabaratorsActions'
 import './collabarators.css'

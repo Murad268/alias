@@ -1,0 +1,17 @@
+@media(max-width: 730px) {
+   .erBlock {
+      height: 600px;
+   }
+}
+
+@media(max-width: 500px) {
+   .erBlock {
+      height: 407px;
+   }
+}
+
+@media(max-width: 300px) {
+   .erBlock {
+      height: 300px;
+   }
+}
